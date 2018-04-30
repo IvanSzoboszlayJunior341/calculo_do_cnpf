@@ -1,0 +1,10 @@
+C:\Users\ivans\calculodoCPNJ\bin\Debug\netcoreapp2.0\calculodoCPNJ.deps.json
+C:\Users\ivans\calculodoCPNJ\bin\Debug\netcoreapp2.0\calculodoCPNJ.runtimeconfig.json
+C:\Users\ivans\calculodoCPNJ\bin\Debug\netcoreapp2.0\calculodoCPNJ.runtimeconfig.dev.json
+C:\Users\ivans\calculodoCPNJ\bin\Debug\netcoreapp2.0\calculodoCPNJ.dll
+C:\Users\ivans\calculodoCPNJ\bin\Debug\netcoreapp2.0\calculodoCPNJ.pdb
+C:\Users\ivans\calculodoCPNJ\obj\Debug\netcoreapp2.0\calculodoCPNJ.csproj.CoreCompileInputs.cache
+C:\Users\ivans\calculodoCPNJ\obj\Debug\netcoreapp2.0\calculodoCPNJ.AssemblyInfoInputs.cache
+C:\Users\ivans\calculodoCPNJ\obj\Debug\netcoreapp2.0\calculodoCPNJ.AssemblyInfo.cs
+C:\Users\ivans\calculodoCPNJ\obj\Debug\netcoreapp2.0\calculodoCPNJ.dll
+C:\Users\ivans\calculodoCPNJ\obj\Debug\netcoreapp2.0\calculodoCPNJ.pdb

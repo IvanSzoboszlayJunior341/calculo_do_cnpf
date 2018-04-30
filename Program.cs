@@ -8,11 +8,13 @@ namespace calculodoCPNJ
         {
             string clientecnpj , cnpj1 ,cnpj2 , cnpjfinal;
             int contagem1=12 ,contagem2=13,resto ,rs1=0 ,rs2=0;
-            int[] multiplacador1 = new int[12] {5,4,3,2,9,8,7,6,5,4,3,2,};
+            int[] multiplacador1 = new int[12] {5,4,3,2,9,8,7,6,5,4,3,2}; //acrescentemos numero especifico na variavel multiplacador1
             int[] multiplicador2 = new int[13] {6,5,4,3,2,9,8,7,6,5,4,3,2};
-            
-            clientecnpj = "11444777000161";
-            cnpj1 = clientecnpj.Substring(0,12);
+            //no cnpf tem 14 numero 
+            //clientecnpj = "11444777000161";
+            Console.WriteLine("Digite os numero cnpf");
+            clientecnpj = (Console.ReadLine());//pegamos a responda e colocamos na variavel clientecnpj
+            cnpj1 = clientecnpj.Substring(0,12); //Dos 14 numeros precisamos pegar 12 digitos, contar do 0 ate 12
 
             for(int i=0; i < cnpj1.Length;i++)
             {
@@ -35,13 +37,17 @@ namespace calculodoCPNJ
             if(resto < 2 )
             cnpjfinal = cnpj2+0;
             else 
-            cnpjfinal =cnpj2+(11-resto);
+            cnpjfinal=cnpj2+(11-resto);
 
-            Console.WriteLine("o cnpf é:"+cnpjfinal);
-
-
-
-
+            if(cnpjfinal==clientecnpj)
+            {
+                Console.WriteLine("O CNPJ é verdadeiro: "+cnpjfinal);
+            }
+            else if(cnpjfinal!=clientecnpj)
+            {
+                Console.WriteLine("O CNPJ é inválido");
+            }          
+  
 
         }
     }
